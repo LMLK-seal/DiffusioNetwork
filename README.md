@@ -1,5 +1,7 @@
 # DiffusioNetwork
 
+![LLModel Chat Demo](https://github.com/LMLK-seal/DiffusioNetwork/blob/main/Animation.gif?raw=true)
+
 DiffusioNetwork is a Python application that provides a user-friendly interface for generating images using various Stable Diffusion models. It allows users to input prompts, select different models, and adjust various parameters to create unique images.
 
 ## Features
@@ -22,19 +24,9 @@ DiffusioNetwork is a Python application that provides a user-friendly interface 
 
 ## Installation
 
-1. Clone this repository:
-   ```
-   git clone https://github.com/yourusername/DiffusioNetwork.git
-   cd DiffusioNetwork
-   ```
+1. Download the `DiffusioNetwork.py` file from this repository.
 
-2. Create a virtual environment (optional but recommended):
-   ```
-   python -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-   ```
-
-3. Install the required packages:
+2. Install the required packages:
    ```
    pip install PyQt5 Pillow numpy diffusers torch torchvision torchaudio
    ```
