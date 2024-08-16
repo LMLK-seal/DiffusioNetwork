@@ -1,51 +1,78 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DiffusioNetwork</title>
-</head>
-<body>
-    <h1>DiffusioNetwork</h1>
+# DiffusioNetwork
 
-    <p>DiffusioNetwork is a Python application for generating images using various Stable Diffusion models.</p>
+DiffusioNetwork is a Python application that provides a user-friendly interface for generating images using various Stable Diffusion models. It allows users to input prompts, select different models, and adjust various parameters to create unique images.
 
-    <h2>Features</h2>
-    <ul>
-        <li>Multiple pre-trained Stable Diffusion models</li>
-        <li>Custom prompts for image generation</li>
-        <li>Adjustable advanced settings</li>
-        <li>Real-time image display</li>
-        <li>Save generated images in various formats</li>
-    </ul>
+## Features
 
-    <h2>Requirements</h2>
-    <ul>
-        <li>Python 3.7+</li>
-        <li>PyQt5, Pillow, NumPy, diffusers, torch (with CUDA support)</li>
-    </ul>
+- Select from multiple pre-trained Stable Diffusion models
+- Input custom prompts for image generation
+- Adjust advanced settings such as image dimensions, number of inference steps, and seed
+- Option for randomized or fixed seed generation
+- Real-time image display
+- Save generated images in various formats
 
-    <h2>Installation</h2>
-    <ol>
-        <li>Download <code>DiffusioNetwork.py</code> from this repository.</li>
-        <li>Install required packages:
-            <pre><code>pip install PyQt5 Pillow numpy diffusers torch torchvision torchaudio</code></pre>
-        </li>
-    </ol>
+## Requirements
 
-    <h2>Usage</h2>
-    <ol>
-        <li>Run: <code>python DiffusioNetwork.py</code></li>
-        <li>Select a model, enter prompt, adjust settings</li>
-        <li>Click "Generate Image" and "Save Image"</li>
-    </ol>
+- Python 3.7+
+- PyQt5
+- Pillow
+- NumPy
+- diffusers
+- torch (with CUDA support for GPU acceleration)
 
-    <h2>Safety Note</h2>
-    <p>Safety checker is disabled. Use responsibly.</p>
+## Installation
 
-    <h2>License</h2>
-    <p><a href="LICENSE">MIT License</a></p>
+1. Clone this repository:
+   ```
+   git clone https://github.com/yourusername/DiffusioNetwork.git
+   cd DiffusioNetwork
+   ```
 
-    <p>For educational purposes only. Users are responsible for proper use.</p>
-</body>
-</html>
+2. Create a virtual environment (optional but recommended):
+   ```
+   python -m venv venv
+   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   ```
+
+3. Install the required packages:
+   ```
+   pip install PyQt5 Pillow numpy diffusers torch torchvision torchaudio
+   ```
+
+   Note: For GPU support, make sure to install the appropriate version of PyTorch for your CUDA version. Visit https://pytorch.org/ for installation instructions.
+
+## Usage
+
+1. Run the application:
+   ```
+   python DiffusioNetwork.py
+   ```
+
+2. Select a Stable Diffusion model from the dropdown menu.
+
+3. Enter your prompt in the text box.
+
+4. (Optional) Adjust advanced settings:
+   - Set a specific seed or use randomized generation
+   - Adjust image width and height
+   - Set the number of inference steps
+
+5. Click the "Generate Image" button to create your image.
+
+6. Once the image is generated, you can save it using the "Save Image" button.
+
+## Note on Safety
+
+This application disables the safety checker in the Stable Diffusion pipeline. Users should be aware that this may result in the generation of unsafe or inappropriate content. Use responsibly.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+[MIT License](LICENSE)
+
+## Disclaimer
+
+This project is for educational purposes only. Users are responsible for ensuring they have the right to use the selected models and for any content generated using this tool.
