@@ -1,4 +1,4 @@
-# DiffusioNetwork
+# DiffusioNetwork (100% Private-Offline image generator)
 
 ![LLModel Chat Demo](https://github.com/LMLK-seal/DiffusioNetwork/blob/main/Animation.gif?raw=true)
 
