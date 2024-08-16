@@ -4,6 +4,8 @@
 
 DiffusioNetwork is a Python application that provides a user-friendly interface for generating images using various Stable Diffusion models. It allows users to input prompts, select different models, and adjust various parameters to create unique images.
 
+Important Note: DiffusioNetwork is designed to be 100% offline and private once set up. However, it requires an initial download of the chosen Stable Diffusion model.   After this initial download, the application operates entirely on your local machine, ensuring your prompts and generated images remain private and secure.
+
 ## Features
 
 - Select from multiple pre-trained Stable Diffusion models
@@ -33,8 +35,6 @@ DiffusioNetwork is a Python application that provides a user-friendly interface 
 
    Note: For GPU support, make sure to install the appropriate version of PyTorch for your CUDA version. Visit https://pytorch.org/ for installation instructions.
    
-   Important Note: DiffusioNetwork is designed to be 100% offline and private once set up. However, it requires an initial download of the chosen Stable Diffusion model. 
-   After this initial download, the application operates entirely on your local machine, ensuring your prompts and generated images remain private and secure.
 
 ## Usage
 
