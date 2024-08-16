@@ -86,7 +86,7 @@ class FluxInplant(QMainWindow):
         advanced_layout.addWidget(self.height_entry)
 
         self.steps_label = QLabel("Number of Inference Steps:")
-        self.steps_entry = QLineEdit("4")
+        self.steps_entry = QLineEdit("20")
         advanced_layout.addWidget(self.steps_label)
         advanced_layout.addWidget(self.steps_entry)
 
