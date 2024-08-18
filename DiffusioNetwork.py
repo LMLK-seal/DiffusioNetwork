@@ -35,7 +35,8 @@ class FluxInplant(QMainWindow):
             'CompVis/ldm-text2im-large-256',
             'prompthero/openjourney-v4',
             'dreamlike-art/dreamlike-diffusion-1.0',
-            'stabilityai/stable-diffusion-2-base'
+            'stabilityai/stable-diffusion-2-base',
+            'EnD-Diffusers/Virtual_Diffusion_3d_version_one_PDXL'
             
         ])
 
