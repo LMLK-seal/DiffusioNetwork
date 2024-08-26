@@ -1,6 +1,6 @@
 # DiffusioNetwork (100% Private-Offline image generator)
 
-![LLModel Chat Demo](https://raw.githubusercontent.com/LMLK-seal/Printext/main/Printext.gif)
+![LLModel Chat Demo](https://github.com/LMLK-seal/DiffusioNetwork/blob/main/Animation.gif?raw=true)
 
 DiffusioNetwork is a Python application that provides a user-friendly interface for generating images using various Stable Diffusion models. It allows users to input prompts, select different models, and adjust various parameters to create unique images.
 
